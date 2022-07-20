@@ -31,6 +31,7 @@ public class Bootcamp {
         this.descricao = descricao;
     }
 
+
     public LocalDate getDataInicial() {
         return dataInicial;
     }
@@ -67,4 +68,5 @@ public class Bootcamp {
     public int hashCode() {
         return Objects.hash(nome, descricao, dataInicial, dataFinal, devsInscritos, conteudos);
     }
+
 }

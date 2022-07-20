@@ -36,7 +36,7 @@ public class Main {
         Dev devCamila = new Dev();
         devCamila.setNome("Camila");
         devCamila.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos Camila:" + devCamila.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos Camila: \n" + devCamila.getConteudosInscritos());
         devCamila.progredir();
         devCamila.progredir();
         System.out.println("-");
@@ -49,7 +49,7 @@ public class Main {
         Dev devJoao = new Dev();
         devJoao.setNome("Joao");
         devJoao.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos João: \n" + devJoao.getConteudosInscritos());
         devJoao.progredir();
         devJoao.progredir();
         devJoao.progredir();
